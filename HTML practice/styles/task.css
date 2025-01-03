@@ -1,0 +1,44 @@
+h5{
+    background-color: darkgoldenrod;
+}
+.raduan{
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px;
+    background-color: rgb(165, 175, 143);
+    width: 80%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(57, 13, 214);
+
+
+    
+
+}
+.ami{
+    height: 300px;
+    border: 5px solid slateblue;
+    background-image: url(../Images/seo.png);
+    background-repeat: repeat-x;
+    background-size:contain;
+    background-color: beige;
+    
+  
+
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size:large;
+    border: 5px solid orchid;
+    background-color: bisque;
+}
+input{
+    color: brown;
+    background-color: rgb(165, 175, 143);
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+
+}
+*{
+    margin:4px 3px 3px 4px;
+}

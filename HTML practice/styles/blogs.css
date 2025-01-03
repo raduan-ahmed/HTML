@@ -1,0 +1,53 @@
+h3{
+    font-family: cursive;
+    text-decoration: overline;
+}
+.rblog{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.blog{
+    margin: 30px;
+    box-shadow: 10px 10px 20px red;
+}
+/* li{
+    display: inline;
+} */
+
+.rad{
+    border: 2px solid rebeccapurple;
+    margin: 10px;
+    /* just work margin for left and right */
+    /* display: block; */
+    display: inline-block;
+    /* display will be blocked and with inline */
+}
+
+.header{
+    height: 300px;
+    background-color: aquamarine;
+    background-image: url('011.jpg');
+    /* background-image: url(../011.jpg);
+    background-image: url('../Images/raduan.jpg'); 
+    (../)for upper folder getting images*/
+
+
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-size: contain;
+    background-size: cover;
+    background-size: 200px; */
+    
+/*     
+    height: 300px;
+    width: 250px; */
+}
+
+
+.dolor{
+    display: block;
+    border: 10px solid rebeccapurple;
+}
