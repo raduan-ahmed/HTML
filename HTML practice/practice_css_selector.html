@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+    <style>
+        /* 
+        *{
+            margin: 2px;;
+        } 
+            (THis is universal selector in css using (*))
+            */
+        p{
+            color: rgb(189, 48, 48);
+        }
+        #am{
+            font-size: larger;
+        }
+        .gold{
+            background-color: cadetblue;
+        }
+        .als,.bold{
+            font-weight: bold;
+        }
+
+        /* one or more class or id can use using the (,) by seplerate the item */
+
+
+        input[type="password"]{
+            color: rgb(255, 0, 17);
+        }
+        .csve{
+            color: rgb(47, 255, 179);
+        }
+    </style>
+
+</head>
+<body>
+    <h3>Explore Mixed Selector</h3>
+    <p>This is my first line cascading style sheets</p>
+    <p class="bold gold">This is my second line cascading style sheets</p>
+    <p><span class="csve">This is my third line</span> cascading style sheets</p>
+    <p>This is my forth line cascading style sheets</p>
+    <p>This is my five line cascading style sheets</p>
+    <p id="am">This is my six line cascading style sheets</p>
+    <p>This is my seventh line cascading style sheets</p>
+    <p>This is my eighth line cascading style sheets</p>
+    <p class="gold bold">This is my nine line cascading style sheets</p>
+    <ol>
+        <li class="bold">Element selector</li>
+        <li>Class selector</li>
+        <li class="als">class id</li>
+        <li>Universal</li>
+    </ol>
+
+    <form action="">
+
+        <input type="button" value="check it out">
+        <input type="text" name="" id="" placeholder="email .........">
+        <input type="text" name="" id=""placeholder="Password...........">
+    </form>
+
+    <div>
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quam. Ducimus laboriosam repellat earum consectetur accusantium, illo maiores consequuntur suscipit veniam, harum odit sapiente, explicabo magni impedit soluta voluptatum repellendus!</p>
+    </div>
+    
+</body>
+</html>
