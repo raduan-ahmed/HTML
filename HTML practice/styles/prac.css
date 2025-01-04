@@ -17,5 +17,15 @@ p{
     text-align: justify;
     border: 3px solid rgb(134, 35, 35);
     padding: 5px;
-    background-color: darkgray;
+    /* background-color: rgb(123, 118, 118); */
+    background-image: url('../Images/athithan-vignakaran-uWztASDdlBo-unsplash.jpg');
+    background-size: contain;
+    color: rgb(229, 220, 255);
+    background-attachment: fixed;
+}
+.raduan{
+
+    background-image: url('../Images/jordan-ryskamp-erBc_L1I8YI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
