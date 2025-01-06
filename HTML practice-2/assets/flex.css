@@ -1,0 +1,24 @@
+.box{
+    background-color: beige;
+    border: 3px solid indianred;
+    height: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    /* flex-box properties */
+    display: flex;
+    align-items: stretch;
+    
+}
+
+
+.child{
+    width: 200px;
+    /* height: 150px */
+    background-color: aquamarine;
+    font-size: 30px;
+    border: 5px solid rosybrown;
+    
+}
+.hood{
+    flex-grow: 1;
+}
