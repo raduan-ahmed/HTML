@@ -1,0 +1,29 @@
+td,th{
+    border: 2px solid rgb(95, 92, 92);
+    padding: 4px 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+*{
+    margin: 20px;
+}
+
+body{
+    text-align: center;
+}
+h1{
+    background-color: antiquewhite;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 10px 400px;
+}
+.tab{
+    text-align: left;
+    margin-top: 40px;
+}
+.foot{
+
+    background-color: rgb(191, 216, 208);
+}
