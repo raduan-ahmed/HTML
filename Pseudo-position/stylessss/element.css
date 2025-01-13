@@ -1,0 +1,49 @@
+p::first-letter{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aqua;
+}
+/* p::first-line{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aqua;
+} */
+ p{
+    color: blueviolet;
+ }
+
+ /* h1::first-letter{
+    color: blue;
+ } */
+
+
+
+
+ h1::before{
+    background-image: url('../assets/image/computer_15457554.png');
+    width: 80px;
+    height: 80px;
+ }
+
+ /* h1::before{
+    content:"Heading: ";
+ } */
+
+ h1::after{
+    content:" :Heading";
+ }
+::selection{
+   background-color: rgb(148, 148, 167);
+   color: brown;
+}
+
+.first-pera::selection{
+   background-color: cadetblue;
+   color: blue;
+}
+ 
+::placeholder{
+   color: red;
+}
