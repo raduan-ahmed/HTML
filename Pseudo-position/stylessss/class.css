@@ -1,0 +1,72 @@
+/* li{
+    color: red;
+} */
+
+li:first-child{
+    color: blue;
+    font-size: 30px;
+}
+
+li:last-child{
+    color: red;
+    font-size: 30px;
+}
+
+/* nth-single-items */
+li:nth-child(5){
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/* nth-even-odd */
+li:nth-child(even){
+    background-color: #9c5050;
+}
+
+/* nth-last theke count suru korbe */
+li:nth-last-child(2){
+    font-size: 10px;
+}
+
+/* nth-n */
+li:nth-child(3n){
+    border: 10px solid;
+}
+
+
+
+/* for form in input */
+.text{
+    /* border: 2px solid red; */
+}
+
+/* .text-items:focus{
+    border: 10px solid rgb(49, 40, 177);
+    background-color: rgb(0, 0, 0);
+    color: white;
+} */
+
+/* .input:checked{
+    box-shadow:1px 1px 2px red;
+    outline: 1px solid red;
+} */
+
+/* label {
+    display: block;
+    margin-top: 10px;
+  } */
+  
+  input:checked {
+    outline: 1px solid red;
+  }
+
+
+
+/* for enable disable */
+input:enabled {
+    background-color: yellow;
+  }
+  
+  input:disabled {
+    background-color: lightgray;
+  }
