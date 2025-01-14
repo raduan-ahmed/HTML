@@ -1,0 +1,45 @@
+h1{
+    background-color: #db4949;
+    position: sticky;
+    top: 0px;
+}
+.parent{
+    width: 500px;
+    border: 2px solid red;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+    
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: #d84f4f;
+    display: inline-block;
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: #4225d3;
+    display: inline-block;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+    /* position: fixed;
+    left: 0px;
+    top: 0px; */
+
+    
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: #1eb72d;
+    display: inline-block;
+    /* position: relative;
+    left: -50px;
+    top: -50px; */
+}
